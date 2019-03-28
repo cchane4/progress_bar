@@ -1,4 +1,4 @@
-function move(){ 
+/*function move(){ 
     var elem = document.getElementById("bar"); 
     var width = 1; 
     var id = setInterval(frame, 10); 
@@ -8,8 +8,13 @@ function move(){
         }
         else{ 
             width++; 
-            elem.style.width = width+'%'; 
+           elem.style.width = width+'%'; 
 
         }
     }   
-}
+}*/
+ 
+let elem = document.getElementById("bar"); 
+let width = 1; 
+let id = setInterval(frame, 10); 
+
